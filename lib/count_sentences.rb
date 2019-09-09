@@ -15,7 +15,7 @@ self.end_with? ("!")
   end
 
   def count_sentences
-array = self.split(/.?!/).reject {|string| string.empty?}
-return array.length
+        new_array = self.split(/[.?!]/).reject {|string| string.empty?}
+    return new_array.length
   end
 end
