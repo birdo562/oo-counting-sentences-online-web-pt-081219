@@ -7,7 +7,7 @@ class String
   end
 
   def question?
-self.end_with? ("?")
+array.new= self.end_with? ("?")
   end
 
   def exclamation?
