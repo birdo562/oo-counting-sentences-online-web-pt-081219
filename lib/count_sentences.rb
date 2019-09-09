@@ -16,6 +16,6 @@ self.end_with? ("!")
 
   def count_sentences
 array.new = self.split(/.?!/).reject {|string| string.empty?}
-
+return array
   end
 end
