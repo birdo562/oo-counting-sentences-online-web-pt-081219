@@ -7,7 +7,7 @@ class String
   end
 
   def question?
-array.new= self.end_with? ("?")
+self.end_with? ("?")
   end
 
   def exclamation?
@@ -15,6 +15,6 @@ self.end_with? ("!")
   end
 
   def count_sentences
-self.split(".", "?", "!")
+self.split(/.?!/).reject 
   end
 end
